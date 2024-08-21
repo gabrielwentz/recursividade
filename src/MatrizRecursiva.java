@@ -4,7 +4,7 @@ public class MatrizRecursiva {
 
     public static int[][] criarMatriz(int linhas, int colunas) {
         int[][] matriz = new int[linhas][colunas];
-        int valor = 100;  // Início em 100
+        int valor = 100;  
 
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
@@ -40,7 +40,7 @@ public class MatrizRecursiva {
 
         int[][] matriz = criarMatriz(linhas, colunas);
 
-        // Exibindo a quantidade de linhas e colunas da matriz
+       
         System.out.println("A matriz tem " + matriz.length + " linhas e " + matriz[0].length + " colunas.");
 
         System.out.println("Elementos da matriz:");
